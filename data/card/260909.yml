@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.13.2"
   latestRelease: "v1.13.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T03:15:14Z
+  collectedAt: 2026-09-09T18:20:03Z
 timeline:
   created: 2011-02-06
   lastCommit: 2026-09-08
@@ -38,7 +38,7 @@ recent:
     openPR: 5
     closedIssue: 1
     openIssue: 1
-    commit: 0
+    commit: 5
   last60d:
     since: 2026-07-11
     release: 0
@@ -46,7 +46,7 @@ recent:
     openPR: 9
     closedIssue: 6
     openIssue: 1
-    commit: 0
+    commit: 8
   last90d:
     since: 2026-06-11
     release: 0
@@ -54,7 +54,7 @@ recent:
     openPR: 14
     closedIssue: 11
     openIssue: 3
-    commit: 0
+    commit: 10
   last180d:
     since: 2026-03-13
     release: 0
@@ -62,7 +62,7 @@ recent:
     openPR: 27
     closedIssue: 20
     openIssue: 9
-    commit: 0
+    commit: 56
   last360d:
     since: 2025-09-14
     release: 1
@@ -70,7 +70,7 @@ recent:
     openPR: 39
     closedIssue: 39
     openIssue: 19
-    commit: 0
+    commit: 98
   last720d:
     since: 2024-09-19
     release: 3
@@ -88,7 +88,7 @@ total:
   commit: 3448
 ---
 path: /home/runner/.x-repo/github.com/ninja-build/ninja
-collectedAt: 2026-09-09T03:15:23Z
+collectedAt: 2026-09-09T18:20:05Z
 loc:
   Cpp:
     code: 20973
