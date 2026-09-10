@@ -4,7 +4,7 @@
 
 a small build system with a focus on speed
 
-![ninja](https://repo.x-cmd.io/ninja.svg)
+![ninja](https://repo.x-cmd.io/ninja.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,20 @@ x install ninja
 - **最新版本**: `v1.13.2` (2025-11-20)
 - **最近提交**: 2026-09-08
 - **Release 含资产**: 5 个
-- **发布时间**: 2025-11-20T16:51:20Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [ninja-linux-aarch64.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux-aarch64.zip) | 123.3 KiB | `native/linux/arm64` |
+| [ninja-linux.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux.zip) | 130.9 KiB | `other` |
+| [ninja-mac.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-mac.zip) | 306.7 KiB | `other` |
+| [ninja-win.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-win.zip) | 284.7 KiB | `other` |
+| [ninja-winarm64.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-winarm64.zip) | 264.0 KiB | `other` |
 
 ## 流行度
 
-- **Star**: 13,209 · **Fork**: 1,823 · **开放 issue**: 1,160 · **贡献者**: 294
+- **Star**: 13,212 · **Fork**: 1,823 · **开放 issue**: 1,160 · **贡献者**: 294
 
 ## 累计统计
 
@@ -72,4 +81,4 @@ ninja 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T03:14:54Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:56:04Z._

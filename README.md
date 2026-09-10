@@ -23,11 +23,20 @@ x install ninja
 - **Latest**: `v1.13.2` (2025-11-20)
 - **Last commit**: 2026-09-08
 - **Assets in release**: 5
-- **Published**: 2025-11-20T16:51:20Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [ninja-linux-aarch64.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux-aarch64.zip) | 123.3 KiB | `native/linux/arm64` |
+| [ninja-linux.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux.zip) | 130.9 KiB | `other` |
+| [ninja-mac.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-mac.zip) | 306.7 KiB | `other` |
+| [ninja-win.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-win.zip) | 284.7 KiB | `other` |
+| [ninja-winarm64.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-winarm64.zip) | 264.0 KiB | `other` |
 
 ## Popularity
 
-- **Stars**: 13,209 · **Forks**: 1,823 · **Open issues**: 1,160 · **Contributors**: 294
+- **Stars**: 13,212 · **Forks**: 1,823 · **Open issues**: 1,160 · **Contributors**: 294
 
 ## Totals (cumulative)
 
@@ -68,8 +77,8 @@ Lowest-scoring checks:
 Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ninja` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/ninja.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/ninja.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T03:14:53Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:56:03Z._
