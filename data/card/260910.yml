@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.13.2"
   latestRelease: "v1.13.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T03:14:48Z
+  collectedAt: 2026-09-10T15:55:57Z
 timeline:
   created: 2011-02-06
   lastCommit: 2026-09-08
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-11-20
   lastPrerelease: 
 popularity:
-  star: 13209
+  star: 13212
   watcher: 259
   fork: 1823
   release: 28
@@ -88,7 +88,7 @@ total:
   commit: 3448
 ---
 path: /home/runner/.x-repo/github.com/ninja-build/ninja
-collectedAt: 2026-09-10T03:14:49Z
+collectedAt: 2026-09-10T15:55:59Z
 loc:
   Cpp:
     code: 20973
