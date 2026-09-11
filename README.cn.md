@@ -48,7 +48,7 @@ x install ninja
 
 ## 流行度
 
-- **Star**: 13,213 · **Fork**: 1,823 · **开放 issue**: 1,160 · **贡献者**: 294
+- **Star**: 13,217 · **Fork**: 1,822 · **开放 issue**: 1,160 · **贡献者**: 294
 
 ## 累计统计
 
@@ -77,7 +77,7 @@ x install ninja
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ninja) 上共有 **230** 个发行版报告此项目。**85** 个 ✅ 已是最新上游版本，**110** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ninja) 上共有 **230** 个发行版报告此项目。**87** 个 ✅ 已是最新上游版本，**108** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -103,4 +103,4 @@ ninja 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T03:10:26Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T20:44:15Z._
