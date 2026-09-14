@@ -48,7 +48,7 @@ x install ninja
 
 ## 流行度
 
-- **Star**: 13,220 · **Fork**: 1,822 · **开放 issue**: 1,160 · **贡献者**: 294
+- **Star**: 13,222 · **Fork**: 1,824 · **开放 issue**: 1,160 · **贡献者**: 294
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install ninja
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 2 | 3 | 1 | 1 | 5 |
-| last60d | 2026-07-15 | 0 | 3 | 10 | 5 | 1 | 8 |
-| 90d | 2026-06-15 | 0 | 5 | 13 | 10 | 3 | 10 |
-| last180d | 2026-03-17 | 0 | 28 | 27 | 20 | 8 | 56 |
-| 360d | 2025-09-18 | 1 | 51 | 40 | 39 | 19 | 98 |
-| last720d | 2024-09-23 | 3 | 101 | 53 | 93 | 42 | 308 |
+| 30d | 2026-08-15 | 0 | 1 | 3 | 1 | 1 | 2 |
+| last60d | 2026-07-16 | 0 | 3 | 10 | 5 | 1 | 8 |
+| 90d | 2026-06-16 | 0 | 5 | 13 | 10 | 3 | 10 |
+| last180d | 2026-03-18 | 0 | 27 | 27 | 20 | 8 | 48 |
+| 360d | 2025-09-19 | 1 | 51 | 40 | 39 | 19 | 98 |
+| last720d | 2024-09-24 | 3 | 101 | 53 | 93 | 42 | 308 |
 
 ## Release 资产
 
@@ -75,25 +75,6 @@ x install ninja
 | [ninja-win.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-win.zip) | 284.7 KiB | `other` |
 | [ninja-winarm64.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-winarm64.zip) | 264.0 KiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/ninja) 上共有 **230** 个发行版报告此项目。**87** 个 ✅ 已是最新上游版本，**108** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.13.2` | ✅ latest |
-| Debian 14 | `1.13.2` | ✅ latest |
-| Debian 13 | `1.12.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.13.2` | ✅ latest |
-| Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
-| Arch | `1.13.2` | ✅ latest |
-| Homebrew | `1.13.2` | ✅ latest |
-| Fedora rawhide | `1.13.2` | ✅ latest |
-| Nix unstable | `1.13.2` | ✅ latest |
-| Void | `1.13.2` | ✅ latest |
-| Alpine edge | `1.13.2` | ✅ latest |
-| openSUSE Tumbleweed | `1.13.2` | ✅ latest |
-
 ## 改进这些数据
 
 ninja 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `ninja` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -103,4 +84,4 @@ ninja 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T03:20:34Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T03:32:43Z._
