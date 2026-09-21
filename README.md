@@ -14,11 +14,11 @@ x install ninja
 
 ## Code insight
 
-Total: **29,819** lines of code across **142** files in the top 5 languages.
+Total: **29,867** lines of code across **142** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 20,998 | 3,357 | 3,578 | 79 |
+| Cpp | 21,046 | 3,367 | 3,586 | 79 |
 | Python | 3,247 | 353 | 549 | 15 |
 | CHeader | 2,034 | 1,603 | 756 | 46 |
 | CppHeader | 1,537 | 160 | 252 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.13.2` (2025-11-20)
-- **Last commit**: 2026-09-19
+- **Last commit**: 2026-09-20
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 13,246 · **Forks**: 1,827 · **Open issues**: 1,161 · **Contributors**: 296
+- **Stars**: 13,250 · **Forks**: 1,827 · **Open issues**: 1,161 · **Contributors**: 297
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 967 · **Open PRs**: 94 · **Closed issues**: 848 · **Open issues**: 313 · **Commits**: 3456
+- **Releases**: 28 · **Merged PRs**: 968 · **Open PRs**: 93 · **Closed issues**: 849 · **Open issues**: 312 · **Commits**: 3458
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 4 | 2 | 0 | 2 | 7 |
-| last60d | 2026-07-22 | 0 | 6 | 8 | 3 | 2 | 13 |
-| 90d | 2026-06-22 | 0 | 7 | 11 | 8 | 3 | 15 |
-| last180d | 2026-03-24 | 0 | 24 | 23 | 19 | 9 | 53 |
-| 360d | 2025-09-25 | 1 | 54 | 38 | 39 | 19 | 103 |
-| last720d | 2024-09-30 | 3 | 103 | 52 | 92 | 43 | 316 |
+| 30d | 2026-08-22 | 0 | 4 | 2 | 0 | 2 | 0 |
+| last60d | 2026-07-23 | 0 | 7 | 7 | 2 | 2 | 0 |
+| 90d | 2026-06-23 | 0 | 8 | 10 | 8 | 3 | 0 |
+| last180d | 2026-03-25 | 0 | 25 | 22 | 20 | 8 | 0 |
+| 360d | 2025-09-26 | 1 | 55 | 37 | 40 | 18 | 0 |
+| last720d | 2024-10-01 | 3 | 103 | 51 | 92 | 42 | 317 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T03:34:18Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T03:29:51Z._
