@@ -4,7 +4,7 @@
 
 a small build system with a focus on speed
 
-[![x-cmd/install — ninja Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ninja.svg)](https://x-cmd.com/install/ninja)
+[![x-cmd/install — ninja Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/ninja.svg)](https://x-cmd.com/install/ninja)
 
 ## Install
 
@@ -26,13 +26,13 @@ Total: **29,867** lines of code across **142** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.7 / 10**
+Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,252 · **Forks**: 1,828 · **Open issues**: 1,161 · **Contributors**: 297
+- **Stars**: 13,256 · **Forks**: 1,828 · **Open issues**: 1,161 · **Contributors**: 297
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 3 | 3 | 0 | 1 | 6 |
-| last60d | 2026-07-24 | 0 | 7 | 8 | 2 | 2 | 11 |
-| 90d | 2026-06-24 | 0 | 8 | 11 | 8 | 3 | 15 |
-| last180d | 2026-03-26 | 0 | 24 | 23 | 18 | 7 | 48 |
-| 360d | 2025-09-27 | 1 | 55 | 38 | 40 | 18 | 100 |
-| last720d | 2024-10-02 | 3 | 103 | 52 | 92 | 42 | 316 |
+| 30d | 2026-08-24 | 0 | 3 | 3 | 0 | 1 | 6 |
+| last60d | 2026-07-25 | 0 | 6 | 8 | 2 | 2 | 11 |
+| 90d | 2026-06-25 | 0 | 8 | 11 | 8 | 3 | 15 |
+| last180d | 2026-03-27 | 0 | 24 | 23 | 17 | 6 | 48 |
+| 360d | 2025-09-28 | 1 | 55 | 38 | 40 | 18 | 100 |
+| last720d | 2024-10-03 | 3 | 102 | 52 | 92 | 42 | 316 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T03:27:52Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T03:29:09Z._
