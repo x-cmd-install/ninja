@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,256 · **Forks**: 1,828 · **Open issues**: 1,161 · **Contributors**: 297
+- **Stars**: 13,259 · **Forks**: 1,829 · **Open issues**: 1,161 · **Contributors**: 297
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 968 · **Open PRs**: 94 · **Closed issues**: 849 · **Open issues**: 312 · **Commits**: 3458
+- **Releases**: 28 · **Merged PRs**: 968 · **Open PRs**: 95 · **Closed issues**: 849 · **Open issues**: 312 · **Commits**: 3458
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 3 | 3 | 0 | 1 | 6 |
-| last60d | 2026-07-25 | 0 | 6 | 8 | 2 | 2 | 11 |
-| 90d | 2026-06-25 | 0 | 8 | 11 | 8 | 3 | 15 |
-| last180d | 2026-03-27 | 0 | 24 | 23 | 17 | 6 | 48 |
-| 360d | 2025-09-28 | 1 | 55 | 38 | 40 | 18 | 100 |
-| last720d | 2024-10-03 | 3 | 102 | 52 | 92 | 42 | 316 |
+| 30d | 2026-08-25 | 0 | 3 | 4 | 0 | 1 | 6 |
+| last60d | 2026-07-26 | 0 | 6 | 9 | 2 | 2 | 11 |
+| 90d | 2026-06-26 | 0 | 8 | 12 | 8 | 3 | 15 |
+| last180d | 2026-03-28 | 0 | 24 | 24 | 17 | 6 | 48 |
+| 360d | 2025-09-29 | 1 | 55 | 39 | 40 | 18 | 100 |
+| last720d | 2024-10-04 | 3 | 102 | 53 | 92 | 42 | 315 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T03:29:09Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T03:18:36Z._
