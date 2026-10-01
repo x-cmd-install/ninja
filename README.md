@@ -31,8 +31,8 @@ Overall score: **4.8 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,273 · **Forks**: 1,834 · **Open issues**: 1,162 · **Contributors**: 298
+- **Stars**: 13,274 · **Forks**: 1,834 · **Open issues**: 1,162 · **Contributors**: 298
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 969 · **Open PRs**: 99 · **Closed issues**: 849 · **Open issues**: 313 · **Commits**: 3460
+- **Releases**: 28 · **Merged PRs**: 969 · **Open PRs**: 100 · **Closed issues**: 849 · **Open issues**: 313 · **Commits**: 3460
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 3 | 9 | 0 | 2 | 5 |
-| last60d | 2026-08-01 | 0 | 6 | 13 | 2 | 3 | 11 |
-| 90d | 2026-07-02 | 0 | 7 | 16 | 7 | 3 | 14 |
-| last180d | 2026-04-03 | 0 | 25 | 27 | 16 | 7 | 43 |
-| 360d | 2025-10-05 | 1 | 56 | 43 | 36 | 19 | 101 |
-| last720d | 2024-10-10 | 3 | 103 | 57 | 91 | 43 | 315 |
+| 30d | 2026-09-01 | 0 | 2 | 11 | 0 | 2 | 5 |
+| last60d | 2026-08-02 | 0 | 6 | 15 | 2 | 3 | 11 |
+| 90d | 2026-07-03 | 0 | 7 | 18 | 7 | 3 | 14 |
+| last180d | 2026-04-04 | 0 | 24 | 29 | 16 | 7 | 43 |
+| 360d | 2025-10-06 | 1 | 56 | 45 | 36 | 19 | 101 |
+| last720d | 2024-10-11 | 3 | 103 | 59 | 91 | 43 | 315 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T04:08:05Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T04:20:07Z._
