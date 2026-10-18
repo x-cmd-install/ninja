@@ -14,12 +14,12 @@ x install ninja
 
 ## Code insight
 
-Total: **29,917** lines of code across **142** files in the top 5 languages.
+Total: **30,214** lines of code across **143** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 21,086 | 3,370 | 3,597 | 79 |
-| Python | 3,257 | 354 | 553 | 15 |
+| Cpp | 21,088 | 3,372 | 3,597 | 79 |
+| Python | 3,552 | 419 | 596 | 16 |
 | CHeader | 2,034 | 1,603 | 756 | 46 |
 | CppHeader | 1,537 | 160 | 252 | 1 |
 | AsciiDoc | 1,153 | 0 | 308 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.13.2` (2025-11-20)
-- **Last commit**: 2026-10-15
+- **Last commit**: 2026-10-17
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 13,310 · **Forks**: 1,844 · **Open issues**: 1,163 · **Contributors**: 299
+- **Stars**: 13,312 · **Forks**: 1,845 · **Open issues**: 1,163 · **Contributors**: 300
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 972 · **Open PRs**: 103 · **Closed issues**: 851 · **Open issues**: 312 · **Commits**: 3466
+- **Releases**: 28 · **Merged PRs**: 973 · **Open PRs**: 104 · **Closed issues**: 852 · **Open issues**: 311 · **Commits**: 3469
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 0 | 3 | 12 | 0 | 2 | 4 |
-| last60d | 2026-08-18 | 0 | 7 | 14 | 1 | 3 | 10 |
-| 90d | 2026-07-19 | 0 | 10 | 20 | 6 | 3 | 17 |
-| last180d | 2026-04-20 | 0 | 25 | 31 | 18 | 6 | 38 |
-| 360d | 2025-10-22 | 1 | 57 | 48 | 35 | 18 | 102 |
-| last720d | 2024-10-27 | 3 | 106 | 62 | 93 | 42 | 318 |
+| 30d | 2026-09-18 | 0 | 3 | 14 | 0 | 2 | 3 |
+| last60d | 2026-08-19 | 0 | 8 | 15 | 2 | 2 | 10 |
+| 90d | 2026-07-20 | 0 | 11 | 21 | 7 | 2 | 16 |
+| last180d | 2026-04-21 | 0 | 26 | 32 | 19 | 5 | 39 |
+| 360d | 2025-10-23 | 1 | 58 | 49 | 35 | 17 | 103 |
+| last720d | 2024-10-28 | 3 | 107 | 63 | 94 | 41 | 321 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261017.yml` · 2026-10-17T03:07:25Z._
+_Snapshot: `data/card/261018.yml` · 2026-10-18T03:10:01Z._
