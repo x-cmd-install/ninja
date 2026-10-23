@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 978 · **Open PRs**: 105 · **Closed issues**: 853 · **Open issues**: 310 · **Commits**: 3480
+- **Releases**: 28 · **Merged PRs**: 978 · **Open PRs**: 108 · **Closed issues**: 853 · **Open issues**: 310 · **Commits**: 3480
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 6 | 16 | 0 | 2 | 6 |
-| last60d | 2026-08-23 | 0 | 10 | 18 | 1 | 2 | 13 |
-| 90d | 2026-07-24 | 0 | 15 | 22 | 4 | 2 | 20 |
-| last180d | 2026-04-25 | 0 | 30 | 34 | 19 | 5 | 43 |
-| 360d | 2025-10-27 | 1 | 61 | 50 | 36 | 16 | 109 |
-| last720d | 2024-11-01 | 3 | 110 | 63 | 94 | 39 | 330 |
+| 30d | 2026-09-23 | 0 | 5 | 19 | 0 | 2 | 6 |
+| last60d | 2026-08-24 | 0 | 10 | 21 | 1 | 2 | 13 |
+| 90d | 2026-07-25 | 0 | 14 | 25 | 4 | 2 | 20 |
+| last180d | 2026-04-26 | 0 | 30 | 37 | 19 | 5 | 43 |
+| 360d | 2025-10-28 | 1 | 61 | 53 | 35 | 15 | 109 |
+| last720d | 2024-11-02 | 3 | 110 | 66 | 94 | 39 | 330 |
 
 ## Release assets
 
@@ -75,6 +75,25 @@ Lowest-scoring checks:
 | [ninja-win.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-win.zip) | 284.7 KiB | `other` |
 | [ninja-winarm64.zip](https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-winarm64.zip) | 264.0 KiB | `other` |
 
+## Distribution status
+
+Reported by **226** distros on [repology.org](https://repology.org/project/ninja). **85** are ✅ on the latest upstream release, **106** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.13.2` | ✅ latest |
+| Debian 14 | `1.13.2` | ✅ latest |
+| Debian 13 | `1.12.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.13.2` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
+| Arch | `1.13.2` | ✅ latest |
+| Homebrew | `1.13.2` | ✅ latest |
+| Fedora rawhide | `1.13.2` | ✅ latest |
+| Nix unstable | `1.13.2` | ✅ latest |
+| Void | `1.13.2` | ✅ latest |
+| Alpine edge | `1.13.2` | ✅ latest |
+| openSUSE Tumbleweed | `1.13.2` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ninja` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -84,4 +103,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T03:25:36Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T03:30:58Z._
