@@ -1,12 +1,6 @@
 - repo: conancenter
   srcname: ninja
   visiblename: ninja
-  version: 1.13.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: ninja
-  visiblename: ninja
   version: 1.12.1
   origversion: null
   status: legacy
@@ -34,69 +28,50 @@
   version: 1.10.2
   origversion: null
   status: legacy
-- repo: conancenter
+- repo: nix_stable_25_05
   srcname: ninja
   visiblename: ninja
-  version: 1.13.1
+  version: 1.12.1
+  origversion: null
+  status: outdated
+  summary: Small build system with a focus on speed
+  maintainers:
+    - aseipp@pobox.com
+    - bjorn.forsman@gmail.com
+    - orivej@gmx.fr
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: ninja_1_11
+  visiblename: ninja
+  version: 1.11.1
   origversion: null
   status: legacy
-- repo: deepin_unstable
-  subrepo: main
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: outdated
+  summary: Small build system with a focus on speed
   maintainers:
-    - fgeyer@debian.org
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.12.1
-  origversion: 1.12.1-1
-  status: outdated
-  maintainers:
-    - fgeyer@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.13.2
-  origversion: 1.13.2-1
-  status: newest
-  maintainers:
-    - fgeyer@debian.org
-  categories:
-    - misc
-- repo: chromebrew
-  srcname: ninja
-  visiblename: ninja
-  version: 1.13.2
-  origversion: null
-  status: newest
-  summary: a small build system with a focus on speed
+    - aseipp@pobox.com
+    - bjorn.forsman@gmail.com
+    - orivej@gmx.fr
   licenses:
-    - GPL-2
-- repo: apertis_v2026
-  subrepo: v2026/development
+    - Apache-2.0
+- repo: almalinux_9
+  subrepo: CRB
   srcname: ninja-build
   binnames:
+    - ninja-build-debugsource
+    - ninja-build-debuginfo
     - ninja-build
   visiblename: ninja-build
-  version: 1.12.1
-  origversion: 1.12.1-1+apertis0
+  version: 1.10.2
+  origversion: 1.10.2-6.el9
   status: outdated
+  summary: Small build system with a focus on speed
   maintainers:
-    - fgeyer@debian.org
+    - packager@almalinux.org
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
 - repo: adelie_current
   subrepo: user
   srcname: ninja
@@ -167,12 +142,6 @@
     - ASL 2.0
   categories:
     - Unspecified
-- repo: conancenter
-  srcname: ninja
-  visiblename: ninja
-  version: 1.13.2
-  origversion: null
-  status: newest
 - repo: almalinux_8
   subrepo: PowerTools
   srcname: ninja-build
@@ -183,24 +152,6 @@
   summary: A small build system with a focus on speed
   maintainers:
     - packager@cloudlinux.com
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-- repo: almalinux_9
-  subrepo: CRB
-  srcname: ninja-build
-  binnames:
-    - ninja-build-debugsource
-    - ninja-build-debuginfo
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.10.2
-  origversion: 1.10.2-6.el9
-  status: outdated
-  summary: Small build system with a focus on speed
-  maintainers:
-    - packager@almalinux.org
   licenses:
     - ASL 2.0
   categories:
@@ -231,17 +182,6 @@
     - alice@ayaya.dev
   licenses:
     - Apache-2.0
-- repo: apertis_v2027
-  subrepo: v2027dev1/development
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.12.1
-  origversion: 1.12.1-1+apertis0
-  status: outdated
-  maintainers:
-    - fgeyer@debian.org
 - repo: alpine_3_19
   subrepo: community
   srcname: ninja-build
@@ -357,17 +297,6 @@
   summary: Small build system with a focus on speed
   maintainers:
     - cielesti@protonmail.com
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: ninja
-  binname: ninja
-  visiblename: ninja
-  version: 1.13.2
-  origversion: 1.13.2-3
-  status: newest
-  summary: Small build system with a focus on speed
   licenses:
     - Apache-2.0
 - repo: alpine_3_23
@@ -494,6 +423,16 @@
     - ASL 2.0
   categories:
     - Unspecified
+- repo: crux_37
+  subrepo: core
+  srcname: ninja
+  visiblename: ninja
+  version: 1.12.1
+  origversion: null
+  status: outdated
+  summary: Small build system with a focus on speed
+  maintainers:
+    - core-ports@crux.nu
 - repo: aosc
   srcname: app-devel/ninja
   binname: ninja
@@ -517,6 +456,19 @@
   status: outdated
   maintainers:
     - fgeyer@debian.org
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+  categories:
+    - devel
 - repo: apertis_v2024
   subrepo: v2024/development
   srcname: ninja-build
@@ -539,6 +491,39 @@
   status: outdated
   maintainers:
     - fgeyer@debian.org
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.12.1
+  origversion: 1.12.1-1+apertis0
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+- repo: apertis_v2027
+  subrepo: v2027dev1/development
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.12.1
+  origversion: 1.12.1-1+apertis0
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+- repo: arch
+  subrepo: extra
+  srcname: ninja
+  binname: ninja
+  visiblename: ninja
+  version: 1.13.2
+  origversion: 1.13.2-3
+  status: newest
+  summary: Small build system with a focus on speed
+  licenses:
+    - Apache-2.0
 - repo: aur
   srcname: ninja-git
   binname: ninja-git
@@ -716,16 +701,33 @@
   origversion: null
   status: newest
   summary: a small build system with a focus on speed
-- repo: crux_37
-  subrepo: core
+- repo: chromebrew
   srcname: ninja
   visiblename: ninja
-  version: 1.12.1
+  version: 1.13.2
   origversion: null
-  status: outdated
-  summary: Small build system with a focus on speed
-  maintainers:
-    - core-ports@crux.nu
+  status: newest
+  summary: a small build system with a focus on speed
+  licenses:
+    - GPL-2
+- repo: conancenter
+  srcname: ninja
+  visiblename: ninja
+  version: 1.13.2
+  origversion: null
+  status: newest
+- repo: conancenter
+  srcname: ninja
+  visiblename: ninja
+  version: 1.13.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: ninja
+  visiblename: ninja
+  version: 1.13.0
+  origversion: null
+  status: legacy
 - repo: crux_38
   subrepo: core
   srcname: ninja
@@ -829,6 +831,17 @@
     - fgeyer@debian.org
   categories:
     - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
 - repo: deepin_23
   subrepo: main
   srcname: ninja-build
@@ -962,22 +975,19 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-devel
-- repo: fedora_39
-  subrepo: release
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-    - ninja-build-debuginfo
-    - ninja-build-debugsource
-  visiblename: ninja-build
-  version: 1.11.1
-  origversion: 1.11.1-4.fc39
+- repo: nix_stable_24_11
+  srcname: ninja
+  visiblename: ninja
+  version: 1.12.1
+  origversion: null
   status: outdated
   summary: Small build system with a focus on speed
+  maintainers:
+    - aseipp@pobox.com
+    - bjorn.forsman@gmail.com
+    - orivej@gmx.fr
   licenses:
     - Apache-2.0
-  categories:
-    - Unspecified
 - repo: fedora_39
   subrepo: updates
   srcname: ninja-build
@@ -989,6 +999,22 @@
   visiblename: ninja-build
   version: 1.11.1
   origversion: 1.11.1-8.fc39
+  status: outdated
+  summary: Small build system with a focus on speed
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+    - ninja-build-debuginfo
+    - ninja-build-debugsource
+  visiblename: ninja-build
+  version: 1.11.1
+  origversion: 1.11.1-4.fc39
   status: outdated
   summary: Small build system with a focus on speed
   licenses:
@@ -1171,20 +1197,6 @@
     - Apache-2.0
   categories:
     - dev-build
-- repo: rocky_8
-  subrepo: PowerTools
-  srcname: ninja-build
-  visiblename: ninja-build
-  version: 1.8.2
-  origversion: 1.8.2-1.el8
-  status: outdated
-  summary: A small build system with a focus on speed
-  maintainers:
-    - infrastructure@rockylinux.org
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
 - repo: gentoo_ovl_science
   srcname: sci-physics/ninja
   visiblename: sci-physics/ninja
@@ -1283,6 +1295,19 @@
     - demm@kaosx.us
   licenses:
     - Apache
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+  categories:
+    - devel
 - repo: liguros_stable
   srcname: dev-build/ninja
   visiblename: dev-build/ninja
@@ -1325,19 +1350,6 @@
     - Apache-2.0
   categories:
     - dev-build
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.11.1
-  origversion: 1.11.1-2
-  status: outdated
-  maintainers:
-    - fgeyer@debian.org
-  categories:
-    - universe/devel
 - repo: liguros_stable
   srcname: dev-build/ninja
   visiblename: dev-build/ninja
@@ -1437,6 +1449,19 @@
     - Apache-2
   categories:
     - devel
+- repo: nix_stable_24_11
+  srcname: ninja_1_11
+  visiblename: ninja
+  version: 1.11.1
+  origversion: null
+  status: legacy
+  summary: Small build system with a focus on speed
+  maintainers:
+    - aseipp@pobox.com
+    - bjorn.forsman@gmail.com
+    - orivej@gmx.fr
+  licenses:
+    - Apache-2.0
 - repo: mageia_9
   subrepo: core/release
   srcname: ninja
@@ -1559,23 +1584,23 @@
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: ninja
-  binname: ninja-vim
-  visiblename: ninja-vim
-  version: 1.13.2
-  origversion: 1.13.2-1
-  status: newest
-  summary: Ninja is a small build system with a focus on speed (vim mode)
-  licenses:
-    - Apache
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: ninja
   binname: ninja
   visiblename: ninja
   version: 1.13.2
   origversion: 1.13.2-1
   status: newest
   summary: Ninja is a small build system with a focus on speed
+  licenses:
+    - Apache
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: ninja
+  binname: ninja-vim
+  visiblename: ninja-vim
+  version: 1.13.2
+  origversion: 1.13.2-1
+  status: newest
+  summary: Ninja is a small build system with a focus on speed (vim mode)
   licenses:
     - Apache
 - repo: msys2_ucrt64
@@ -1601,58 +1626,19 @@
     - orivej@gmx.fr
   licenses:
     - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: ninja
-  visiblename: ninja
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
   version: 1.12.1
-  origversion: null
+  origversion: 1.12.1-1
   status: outdated
-  summary: Small build system with a focus on speed
   maintainers:
-    - aseipp@pobox.com
-    - bjorn.forsman@gmail.com
-    - orivej@gmx.fr
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: ninja_1_11
-  visiblename: ninja
-  version: 1.11.1
-  origversion: null
-  status: legacy
-  summary: Small build system with a focus on speed
-  maintainers:
-    - aseipp@pobox.com
-    - bjorn.forsman@gmail.com
-    - orivej@gmx.fr
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: ninja
-  visiblename: ninja
-  version: 1.12.1
-  origversion: null
-  status: outdated
-  summary: Small build system with a focus on speed
-  maintainers:
-    - aseipp@pobox.com
-    - bjorn.forsman@gmail.com
-    - orivej@gmx.fr
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: ninja_1_11
-  visiblename: ninja
-  version: 1.11.1
-  origversion: null
-  status: legacy
-  summary: Small build system with a focus on speed
-  maintainers:
-    - aseipp@pobox.com
-    - bjorn.forsman@gmail.com
-    - orivej@gmx.fr
-  licenses:
-    - Apache-2.0
+    - fgeyer@debian.org
+  categories:
+    - devel
 - repo: nix_stable_25_11
   srcname: ninja
   visiblename: ninja
@@ -1679,19 +1665,18 @@
     - orivej@gmx.fr
   licenses:
     - Apache-2.0
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.12.1
-  origversion: 1.12.1-1
-  status: outdated
+- repo: nix_stable_26_05
+  srcname: ninja
+  visiblename: ninja
+  version: 1.13.2
+  origversion: null
+  status: newest
+  summary: Small build system with a focus on speed
   maintainers:
-    - fgeyer@debian.org
-  categories:
-    - universe/devel
+    - aseipp@pobox.com
+    - bjorn.forsman@gmail.com
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_26_05
   srcname: azure-sdk-for-cpp.ninja
   visiblename: ninja
@@ -1706,18 +1691,6 @@
     - Apache-2.0
   categories:
     - azure-sdk-for-cpp
-- repo: nix_stable_26_05
-  srcname: ninja
-  visiblename: ninja
-  version: 1.13.2
-  origversion: null
-  status: newest
-  summary: Small build system with a focus on speed
-  maintainers:
-    - aseipp@pobox.com
-    - bjorn.forsman@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: nix_stable_26_05
   srcname: ninja_1_11
   visiblename: ninja
@@ -1817,6 +1790,32 @@
     - ASL 2.0
   categories:
     - Unspecified
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.11.1
+  origversion: 1.11.1-2~deb12u1
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.12.1
+  origversion: 1.12.1-1
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+  categories:
+    - misc
 - repo: openeuler_22_03_lts_sp3
   srcname: ninja-build
   binnames:
@@ -2012,6 +2011,19 @@
     - Apache License 2.0
   categories:
     - Applications/Development
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.13.2
+  origversion: 1.13.2-1
+  status: newest
+  maintainers:
+    - fgeyer@debian.org
+  categories:
+    - misc
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: ninja
@@ -2149,19 +2161,6 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.12.1
-  origversion: 1.12.1-1
-  status: outdated
-  maintainers:
-    - fgeyer@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: ninja-build
   binnames:
@@ -2174,6 +2173,19 @@
     - fgeyer@debian.org
   categories:
     - devel
+- repo: parrot
+  subrepo: parrot/main
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.12.1
+  origversion: 1.12.1-1
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+  categories:
+    - misc
 - repo: pclinuxos
   srcname: ninja
   visiblename: ninja
@@ -2239,58 +2251,20 @@
   version: 1.13.2
   origversion: 1.13.2-1
   status: newest
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: rocky_8
+  subrepo: PowerTools
   srcname: ninja-build
-  binnames:
-    - ninja-build
   visiblename: ninja-build
   version: 1.8.2
-  origversion: 1.8.2-1
+  origversion: 1.8.2-1.el8
   status: outdated
+  summary: A small build system with a focus on speed
   maintainers:
-    - fgeyer@debian.org
+    - infrastructure@rockylinux.org
+  licenses:
+    - ASL 2.0
   categories:
-    - devel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: outdated
-  maintainers:
-    - fgeyer@debian.org
-  categories:
-    - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.12.1
-  origversion: 1.12.1-1
-  status: outdated
-  maintainers:
-    - fgeyer@debian.org
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: ninja-build
-  binnames:
-    - ninja-build
-  visiblename: ninja-build
-  version: 1.11.1
-  origversion: 1.11.1-2~deb12u1
-  status: outdated
-  maintainers:
-    - fgeyer@debian.org
-  categories:
-    - misc
+    - Unspecified
 - repo: rocky_9
   subrepo: CRB
   srcname: ninja-build
@@ -2466,6 +2440,19 @@
     - Apache-2.0
   categories:
     - debug
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+  categories:
+    - universe/devel
 - repo: spack
   srcname: ninja
   visiblename: ninja
@@ -2638,14 +2625,27 @@
     - fgeyer@debian.org
   categories:
     - universe/devel
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: ninja-build
   binnames:
     - ninja-build
   visiblename: ninja-build
-  version: 1.10.1
-  origversion: 1.10.1-1
+  version: 1.11.1
+  origversion: 1.11.1-2
+  status: outdated
+  maintainers:
+    - fgeyer@debian.org
+  categories:
+    - universe/devel
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: ninja-build
+  binnames:
+    - ninja-build
+  visiblename: ninja-build
+  version: 1.12.1
+  origversion: 1.12.1-1
   status: outdated
   maintainers:
     - fgeyer@debian.org
