@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.13.2` (2025-11-20)
-- **Last commit**: 2026-11-01
+- **Last commit**: 2026-11-02
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 13,332 · **Forks**: 1,855 · **Open issues**: 1,165 · **Contributors**: 302
+- **Stars**: 13,335 · **Forks**: 1,855 · **Open issues**: 1,165 · **Contributors**: 302
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 979 · **Open PRs**: 118 · **Closed issues**: 853 · **Open issues**: 312 · **Commits**: 3482
+- **Releases**: 28 · **Merged PRs**: 980 · **Open PRs**: 117 · **Closed issues**: 853 · **Open issues**: 312 · **Commits**: 3484
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 4 | 24 | 0 | 3 | 4 |
-| last60d | 2026-09-03 | 0 | 10 | 31 | 1 | 4 | 11 |
-| 90d | 2026-08-04 | 0 | 15 | 34 | 4 | 4 | 21 |
-| last180d | 2026-05-06 | 0 | 31 | 46 | 18 | 7 | 38 |
-| 360d | 2025-11-07 | 1 | 61 | 63 | 35 | 17 | 109 |
-| last720d | 2024-11-12 | 3 | 109 | 76 | 92 | 40 | 321 |
+| 30d | 2026-10-04 | 0 | 5 | 23 | 0 | 3 | 5 |
+| last60d | 2026-09-04 | 0 | 11 | 30 | 1 | 4 | 12 |
+| 90d | 2026-08-05 | 0 | 16 | 33 | 4 | 4 | 22 |
+| last180d | 2026-05-07 | 0 | 32 | 45 | 18 | 7 | 39 |
+| 360d | 2025-11-08 | 1 | 62 | 62 | 35 | 17 | 110 |
+| last720d | 2024-11-13 | 3 | 110 | 75 | 92 | 40 | 322 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **227** distros on [repology.org](https://repology.org/project/ninja). **86** are ✅ on the latest upstream release, **106** are ⚠️ on an older version.
+Reported by **227** distros on [repology.org](https://repology.org/project/ninja). **84** are ✅ on the latest upstream release, **108** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T04:36:44Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T05:28:50Z._
