@@ -26,7 +26,7 @@ Total: **30,379** lines of code across **143** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.8 / 10**
+Overall score: **4.7 / 10**
 
 Lowest-scoring checks:
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,336 · **Forks**: 1,855 · **Open issues**: 1,165 · **Contributors**: 302
+- **Stars**: 13,336 · **Forks**: 1,857 · **Open issues**: 1,165 · **Contributors**: 302
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 981 · **Open PRs**: 116 · **Closed issues**: 858 · **Open issues**: 307 · **Commits**: 3487
+- **Releases**: 28 · **Merged PRs**: 981 · **Open PRs**: 117 · **Closed issues**: 858 · **Open issues**: 307 · **Commits**: 3487
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 5 | 22 | 0 | 3 | 7 |
-| last60d | 2026-09-05 | 0 | 11 | 29 | 1 | 4 | 14 |
-| 90d | 2026-08-06 | 0 | 17 | 32 | 4 | 4 | 24 |
-| last180d | 2026-05-08 | 0 | 33 | 43 | 17 | 7 | 41 |
-| 360d | 2025-11-09 | 1 | 63 | 61 | 35 | 17 | 112 |
-| last720d | 2024-11-14 | 3 | 111 | 74 | 92 | 40 | 325 |
+| 30d | 2026-10-06 | 0 | 5 | 23 | 0 | 3 | 7 |
+| last60d | 2026-09-06 | 0 | 11 | 30 | 1 | 4 | 14 |
+| 90d | 2026-08-07 | 0 | 17 | 33 | 3 | 4 | 24 |
+| last180d | 2026-05-09 | 0 | 31 | 44 | 17 | 7 | 41 |
+| 360d | 2025-11-10 | 1 | 63 | 62 | 35 | 17 | 112 |
+| last720d | 2024-11-15 | 3 | 111 | 75 | 92 | 40 | 325 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **227** distros on [repology.org](https://repology.org/project/ninja). **84** are ✅ on the latest upstream release, **108** are ⚠️ on an older version.
+Reported by **228** distros on [repology.org](https://repology.org/project/ninja). **85** are ✅ on the latest upstream release, **108** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T04:57:46Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T05:17:06Z._
