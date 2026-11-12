@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,350 · **Forks**: 1,859 · **Open issues**: 1,168 · **Contributors**: 302
+- **Stars**: 13,353 · **Forks**: 1,860 · **Open issues**: 1,168 · **Contributors**: 302
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 5 | 26 | 1 | 4 | 6 |
-| last60d | 2026-09-12 | 0 | 11 | 34 | 2 | 6 | 12 |
-| 90d | 2026-08-13 | 0 | 15 | 35 | 4 | 6 | 19 |
-| last180d | 2026-05-15 | 0 | 28 | 47 | 18 | 8 | 38 |
-| 360d | 2025-11-16 | 1 | 63 | 67 | 36 | 19 | 112 |
-| last720d | 2024-11-21 | 3 | 111 | 80 | 92 | 41 | 325 |
+| 30d | 2026-10-13 | 0 | 5 | 26 | 1 | 4 | 6 |
+| last60d | 2026-09-13 | 0 | 11 | 34 | 2 | 6 | 12 |
+| 90d | 2026-08-14 | 0 | 15 | 35 | 4 | 6 | 19 |
+| last180d | 2026-05-16 | 0 | 28 | 47 | 18 | 8 | 38 |
+| 360d | 2025-11-17 | 1 | 63 | 67 | 36 | 19 | 112 |
+| last720d | 2024-11-22 | 3 | 111 | 80 | 92 | 41 | 322 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **227** distros on [repology.org](https://repology.org/project/ninja). **87** are ✅ on the latest upstream release, **105** are ⚠️ on an older version.
+Reported by **226** distros on [repology.org](https://repology.org/project/ninja). **87** are ✅ on the latest upstream release, **104** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T04:50:42Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T05:52:36Z._
