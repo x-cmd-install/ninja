@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,360 · **Forks**: 1,867 · **Open issues**: 1,170 · **Contributors**: 302
+- **Stars**: 13,363 · **Forks**: 1,867 · **Open issues**: 1,171 · **Contributors**: 302
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 981 · **Open PRs**: 130 · **Closed issues**: 859 · **Open issues**: 311 · **Commits**: 3487
+- **Releases**: 28 · **Merged PRs**: 981 · **Open PRs**: 130 · **Closed issues**: 859 · **Open issues**: 312 · **Commits**: 3487
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 3 | 31 | 1 | 6 | 3 |
-| last60d | 2026-09-17 | 0 | 9 | 42 | 1 | 8 | 11 |
-| 90d | 2026-08-18 | 0 | 14 | 43 | 3 | 8 | 17 |
-| last180d | 2026-05-20 | 0 | 28 | 55 | 18 | 10 | 35 |
-| 360d | 2025-11-21 | 0 | 63 | 75 | 35 | 21 | 110 |
-| last720d | 2024-11-26 | 3 | 109 | 88 | 92 | 42 | 317 |
+| 30d | 2026-10-18 | 0 | 2 | 29 | 1 | 7 | 3 |
+| last60d | 2026-09-18 | 0 | 9 | 42 | 1 | 9 | 11 |
+| 90d | 2026-08-19 | 0 | 14 | 43 | 3 | 9 | 17 |
+| last180d | 2026-05-21 | 0 | 28 | 55 | 18 | 11 | 35 |
+| 360d | 2025-11-22 | 0 | 62 | 75 | 35 | 22 | 110 |
+| last720d | 2024-11-27 | 3 | 109 | 88 | 91 | 43 | 312 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **226** distros on [repology.org](https://repology.org/project/ninja). **88** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
+Reported by **227** distros on [repology.org](https://repology.org/project/ninja). **89** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T04:54:22Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T06:43:00Z._
