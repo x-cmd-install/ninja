@@ -18,7 +18,7 @@ Total: **30,379** lines of code across **143** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 21,244 | 3,399 | 3,619 | 79 |
+| Cpp | 21,244 | 3,406 | 3,619 | 79 |
 | Python | 3,561 | 422 | 598 | 16 |
 | CHeader | 2,034 | 1,603 | 756 | 46 |
 | CppHeader | 1,537 | 160 | 252 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.13.2` (2025-11-20)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-20
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 13,369 · **Forks**: 1,872 · **Open issues**: 1,171 · **Contributors**: 302
+- **Stars**: 13,371 · **Forks**: 1,872 · **Open issues**: 1,171 · **Contributors**: 302
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 981 · **Open PRs**: 132 · **Closed issues**: 859 · **Open issues**: 312 · **Commits**: 3487
+- **Releases**: 28 · **Merged PRs**: 982 · **Open PRs**: 132 · **Closed issues**: 859 · **Open issues**: 312 · **Commits**: 3489
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 2 | 28 | 1 | 7 | 3 |
-| last60d | 2026-09-21 | 0 | 9 | 43 | 1 | 9 | 11 |
-| 90d | 2026-08-22 | 0 | 14 | 45 | 3 | 9 | 17 |
-| last180d | 2026-05-24 | 0 | 28 | 56 | 18 | 10 | 35 |
-| 360d | 2025-11-25 | 0 | 61 | 77 | 35 | 21 | 110 |
-| last720d | 2024-11-30 | 3 | 108 | 90 | 90 | 43 | 312 |
+| 30d | 2026-10-22 | 0 | 3 | 25 | 1 | 7 | 4 |
+| last60d | 2026-09-22 | 0 | 10 | 43 | 1 | 9 | 12 |
+| 90d | 2026-08-23 | 0 | 14 | 45 | 2 | 9 | 18 |
+| last180d | 2026-05-25 | 0 | 29 | 56 | 18 | 10 | 36 |
+| 360d | 2025-11-26 | 0 | 62 | 77 | 35 | 21 | 111 |
+| last720d | 2024-12-01 | 3 | 109 | 90 | 90 | 43 | 312 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **226** distros on [repology.org](https://repology.org/project/ninja). **89** are ✅ on the latest upstream release, **102** are ⚠️ on an older version.
+Reported by **225** distros on [repology.org](https://repology.org/project/ninja). **89** are ✅ on the latest upstream release, **101** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for ninja lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T05:50:27Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T05:45:43Z._
